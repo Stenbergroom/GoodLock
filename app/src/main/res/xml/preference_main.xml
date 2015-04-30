@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:key="categ_anim_sounds"
+            android:title="@string/categ_anim_sounds">
+
+    <PreferenceScreen
+            android:key="anim"
+            android:title="@string/anim_title"
+            android:summary="@string/anim_summary">
+    </PreferenceScreen>
+
+    <CheckBoxPreference
+            android:key="chb_sound"
+            android:title="@string/choice_sound_title"
+            android:summaryOff="@string/choice_sound_summ_off"
+            android:summaryOn="@string/choice_sound_summ_on">
+    </CheckBoxPreference>
+
+    <ListPreference
+            android:dependency="chb_sound"
+            android:key="list_sounds"
+            android:entries="@array/entries_sounds"
+            android:entryValues="@array/entry_values_sounds"
+            android:title="@string/list_sounds_title"
+            android:summary="@string/list_sounds_summary">
+    </ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="categ_system"
+            android:title="@string/categ_system">
+
+    <PreferenceScreen
+            android:key="activate"
+            android:title="@string/activate_title"
+            android:summary="@string/activate_summary">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+            android:key="deactivate"
+            android:title="@string/deactivate_title"
+            android:summary="@string/deactivate_summary">
+
+    </PreferenceScreen>
+
+        <ListPreference
+                android:key="language"
+                android:title="@string/language_title"
+                android:summary="@string/language_summary"
+                android:entries="@array/entries_lang"
+                android:entryValues="@array/entry_values_lang">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="categ_about"
+            android:title="@string/about_title">
+
+    <PreferenceScreen
+            android:key="about"
+            android:title="@string/about"
+            android:summary="@string/about_summary">
+    </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

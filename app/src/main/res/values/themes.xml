@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+            name="MyDeepPurpleTheme"
+            parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style
+            name="MyTranslucentTheme"
+            parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/translucent_background</item>
+    </style>
+
+    <style
+            name="MyFullScreenTheme"
+            parent="android:Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+</resources>

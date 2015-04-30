@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayoutMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_image">
+
+    <!--Этот линер лаяут при дабл анимации-->
+    <LinearLayout
+            android:id="@+id/lLayoutTwoParts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="vertical">
+
+        <RelativeLayout
+                android:id="@+id/rLayoutTop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/imageViewTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/rLayoutBot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/imageViewBot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!---->
+
+    <!--Этот линер лаяут при фулскрин анимации-->
+    <LinearLayout
+            android:id="@+id/lLayoutFullScreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+        <RelativeLayout
+            android:id="@+id/rLayoutFull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageViewFullScreen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!---->
+
+    <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:orientation="horizontal"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@color/translucent_background"
+            android:layout_alignParentBottom="true">
+
+
+        <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="onClickImageView"
+                android:src="@drawable/texic_button"
+                android:background="@color/translucent_background"/>
+
+        <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="onClickImageView"
+                android:src="@drawable/fitch_button"
+                android:background="@color/translucent_background"/>
+
+        <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="onClickImageView"
+                android:src="@drawable/rible_button"
+                android:background="@color/translucent_background"/>
+
+        <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="onClickImageView"
+                android:src="@drawable/metallic_button"
+                android:background="@color/translucent_background"/>
+
+        <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="onClickImageView"
+                android:src="@drawable/cornel_button"
+                android:background="@color/translucent_background"/>
+
+        <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:onClick="onClickImageView"
+                android:src="@drawable/integrey_button"
+                android:background="@color/translucent_background"/>
+
+        <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:onClick="onClickImageView"
+                android:src="@drawable/hearts_button"
+                android:background="@color/translucent_background"/>
+
+        </GridLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Good Lock</string>
+    <string name="language_title">Мова</string>
+    <string name="language_summary">Для зміни мови потрібен перезапуск програми</string>
+    <string name="anim_title">Вибір анімації</string>
+    <string name="anim_summary">Натисніть для вибору анімації</string>
+    <string name="choice_sound_title">Увімкнути звук блокування єкрану</string>
+    <string name="choice_sound_summ_off">Звук вимкнений</string>
+    <string name="choice_sound_summ_on">Звук увімкнений</string>
+    <string name="list_sounds_title">Виберіть звук</string>
+    <string name="list_sounds_summary">Натисніть для відображення списку звуків</string>
+    <string name="activate_title">Активація програми</string>
+    <string name="activate_summary">Натисніть для надання доступу адміністратора і активації програми</string>
+    <string name="deactivate_title">Деактивізувати програму</string>
+    <string name="deactivate_summary">Натисніть для відключення доступу адміністратора та деактивації програми</string>
+    <string name="about">Про програму</string>
+    <string name="categ_anim_sounds">Анімація та звук</string>
+    <string name="categ_system">Системні налаштунки</string>
+    <string name="about_title">Продукт</string>
+    <string name="about_summary">Версія 1.3.1</string>
+    <string name="item_menu_save">Зберегти</string>
+    <string name="item_help">Допомога</string>
+    <string name="action_bar_title_main">Налаштунки</string>
+    <string name="action_bar_title_help">Допомога</string>
+
+                                                <!--Помощь-->
+    <string name="tv_activate_title">Доступ адміністратора</string>
+    <string name="tv_activate_text">\t\t Для змоги блокування вашого пристрою, програмі Good Lock потрібні
+        права адміністратора пристрою. Щоб дозволити програмі блокувати екран, натисніть у головному меню - Активація
+        програми</string>
+    <string name="tv_del_title">Видалення</string>
+    <string name="tv_del_text">\t\t Якщо у вас виникли проблеми з видаленням програми, Деактивізуйте програму.
+        Натисніть у головному меню - Деактивізувати програму, після чого сможете безь будь яких складностей видалити
+        Good Lock</string>
+
+                                                <!--Дилоги-->
+    <string name="delete_dialog_title">Good Lock повідомлення</string>
+    <string name="delete_dialog_msg">Тепер можете видалити програму</string>
+    <string name="need_adm_dialog_msg">Ви не активізували програму. Продовжити?</string>
+    <string name="dialog_pos_button">ОК</string>
+
+                                                <!--Тосты-->
+    <string name="activation_failed">Активація провалена!</string>
+    <string name="activation_successful">Активація прошла успішно!</string>
+    <string name="already_activate">Ви вже активізували програму</string>
+    <string name="already_deactivated">Програма деактивована!</string>
+    <string name="select_anim">Виберіть анімацію</string>
+    <string name="restart_app">Після вибору мови програма буде перезапущена</string>
+
+    <string-array name="entries_sounds">
+        <item>Звук 1</item>
+        <item>Звук 2</item>
+        <item>Звук 3</item>
+        <item>Звук 4</item>
+    </string-array>
+
+    <string-array name="entry_values_sounds">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="entries_lang">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Українська</item>
+    </string-array>
+
+    <string-array name="entry_values_lang">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

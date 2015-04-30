@@ -1,0 +1,15 @@
+<resources>
+<!--
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+    </style>
+-->
+    <style
+            name="MyActionBar"
+            parent="android:Widget.Holo.ActionBar">
+
+        <item name="android:background">@color/actionbar</item>
+
+    </style>
+
+</resources>

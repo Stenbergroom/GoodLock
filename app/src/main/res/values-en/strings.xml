@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Good Lock</string>
+    <string name="language_title">Language</string>
+    <string name="language_summary">To change the language need restart the application</string>
+    <string name="anim_title">Choose animation</string>
+    <string name="anim_summary">Press to select animation</string>
+    <string name="choice_sound_title">Enable sound on lock</string>
+    <string name="choice_sound_summ_off">Sound Off</string>
+    <string name="choice_sound_summ_on">Sound On</string>
+    <string name="list_sounds_title">Choose sound</string>
+    <string name="list_sounds_summary">Press to display list of sound</string>
+    <string name="activate_title">Activate application</string>
+    <string name="activate_summary">Press to give administrator privileges and activate application</string>
+    <string name="deactivate_title">Deactivate application</string>
+    <string name="deactivate_summary">Press to disable administrator privileges and deactivation applications</string>
+    <string name="about">About</string>
+    <string name="categ_anim_sounds">Animation and sound</string>
+    <string name="categ_system">System settings</string>
+    <string name="about_title">Product</string>
+    <string name="about_summary">Version 1.3.1</string>
+    <string name="item_menu_save">Save</string>
+    <string name="item_help">Help</string>
+    <string name="action_bar_title_main">Settings</string>
+    <string name="action_bar_title_help">Help</string>
+
+                                                <!--Помощь-->
+    <string name="tv_activate_title">Administrator privileges</string>
+    <string name="tv_activate_text">\t\t To be able to lock your device, application needs administrator privileges. To
+        give permission, press in main menu - Activate application</string>
+    <string name="tv_del_title">Deleting</string>
+    <string name="tv_del_text">\t\t If you have any problems with deleting application, DEACTIVATE application.
+        Press in main menu - Deactivate application. Then you can remove Good Lock without the hassle</string>
+
+                                                <!--Дилоги-->
+    <string name="delete_dialog_title">Good Lock notification</string>
+    <string name="delete_dialog_msg">Now you can delete application</string>
+    <string name="need_adm_dialog_msg">You did not activate the application. Continue?</string>
+    <string name="dialog_pos_button">ОК</string>
+
+                                                <!--Тосты-->
+    <string name="activation_failed">Activation failed!</string>
+    <string name="activation_successful">Activation was successful</string>
+    <string name="already_activate">Application already activated</string>
+    <string name="already_deactivated">Application deactivated!</string>
+    <string name="select_anim">Choose animation</string>
+    <string name="restart_app">After selecting the language application will be restarted</string>
+
+    <string-array name="entries_sounds">
+        <item>Sound 1</item>
+        <item>Sound 2</item>
+        <item>Sound 3</item>
+        <item>Sound 4</item>
+    </string-array>
+
+    <string-array name="entry_values_sounds">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="entries_lang">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Українська</item>
+    </string-array>
+
+    <string-array name="entry_values_lang">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

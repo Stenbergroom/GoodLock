@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayoutMainLock"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/translucent_background">
+
+    <!--Этот линер лаяут при дабл анимации-->
+    <LinearLayout
+            android:id="@+id/lLayoutTwoPartsLock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:background="@color/translucent_background">
+
+        <RelativeLayout
+                android:id="@+id/rLayoutTopLock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/translucent_background">
+
+            <ImageView
+                    android:id="@+id/imageViewTopLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/rLayoutBotLock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/translucent_background">
+
+            <ImageView
+                    android:id="@+id/imageViewBotLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!---->
+
+    <!--Этот линер лаяут при фулскрин анимации-->
+    <LinearLayout
+            android:id="@+id/lLayoutFullScreenLock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/translucent_background"
+            android:weightSum="1">
+
+        <RelativeLayout
+                android:id="@+id/rLayoutFullLock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/translucent_background"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/imageViewFullScreenLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!---->
+
+</RelativeLayout>

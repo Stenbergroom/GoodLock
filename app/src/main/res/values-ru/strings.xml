@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Good Lock</string>
+    <string name="language_title">Язык</string>
+    <string name="language_summary">Для смены языка нужен перезапуск приложения</string>
+    <string name="anim_title">Выбор анимации</string>
+    <string name="anim_summary">Нажмите для выбора анимации</string>
+    <string name="choice_sound_title">Включить звук блокировки</string>
+    <string name="choice_sound_summ_off">Звук выключен</string>
+    <string name="choice_sound_summ_on">Звук включен</string>
+    <string name="list_sounds_title">Выберите звук</string>
+    <string name="list_sounds_summary">Нажмите для отображения списка звуков</string>
+    <string name="activate_title">Активировать приложение</string>
+    <string name="activate_summary">Нажмите для включения доступа администратора и активации приложения</string>
+    <string name="deactivate_title">Деактивировать приложение</string>
+    <string name="deactivate_summary">Нажмите для отключения доступа администратора и деактивации приложения</string>
+    <string name="about">О приложении</string>
+    <string name="categ_anim_sounds">Анимация и звук</string>
+    <string name="categ_system">Системные настройки</string>
+    <string name="about_title">О продукте</string>
+    <string name="about_summary">Версия 1.3.1</string>
+    <string name="item_menu_save">Сохранить</string>
+    <string name="item_help">Помощь</string>
+    <string name="action_bar_title_main">Настройки</string>
+    <string name="action_bar_title_help">Помощь</string>
+
+                                                <!--Помощь-->
+    <string name="tv_activate_title">Доступ администратора</string>
+    <string name="tv_activate_text">\t\t Для возможности блокировки вашего устройства, приложению Good Lock требуются
+        права администратора устройства. Чтобы разрешить блокировать экран, нажмите в главном меню - Активировать
+        приложение</string>
+    <string name="tv_del_title">Удаление</string>
+    <string name="tv_del_text">\t\t Если у вас возникли проблемы с удаление приложения, ДЕАКТИВИРУЙТЕ приложение.
+    В главном меню нажмите - Деактивировать приложение, после чего сможете без каких либо трудностей удалить Good Lock</string>
+
+                                                <!--Дилоги-->
+    <string name="delete_dialog_title">Good Lock уведомление</string>
+    <string name="delete_dialog_msg">Теперь можете удалить приложение</string>
+    <string name="need_adm_dialog_msg">Вы не активировали приложение. Продолжить?</string>
+    <string name="dialog_pos_button">ОК</string>
+
+                                                <!--Тосты-->
+    <string name="activation_failed">Ошибка активации!</string>
+    <string name="activation_successful">Активация прошла успешно!</string>
+    <string name="already_activate">Вы уже активировали приложение</string>
+    <string name="already_deactivated">Приложение деактивировано!</string>
+    <string name="select_anim">Выберите анимацию</string>
+    <string name="restart_app">После выбора языка приложение будет перезапущено</string>
+
+    <string-array name="entries_sounds">
+        <item>Звук 1</item>
+        <item>Звук 2</item>
+        <item>Звук 3</item>
+        <item>Звук 4</item>
+    </string-array>
+
+    <string-array name="entry_values_sounds">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="entries_lang">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Українська</item>
+    </string-array>
+
+    <string-array name="entry_values_lang">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>
