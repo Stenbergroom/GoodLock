@@ -20,6 +20,12 @@
 </a>
     
 =======
+
+### Developed By
+
+- Aleksandr Marchenko - marrchenko@gmail.com
+
+=======
     
 ### License
     
